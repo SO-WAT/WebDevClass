@@ -1,16 +1,127 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+
+        h2{
+            color: darkgreen;
+            font-family: "Bauhaus 93";
+            font-size: xxx-large;
+            font-palette: normal;
+        }
+
+        p{
+            color: indigo;
+            font-family: Bahnschrift;
+        }
+
+        body{
+            background-color: darkgrey;
+            border-style: wave;
+        }
+
+
+
+
+
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DODOOO</title>
+    <title>Blood Type Form</title>
 </head>
 <body>
+ <h2> Blood Type Forms</h2>
+ <form action="FORMS.html"method="post">
+     <p>Contact Information</p>
+     <label for="fname">First Name</label><br>
+     <input type="text"id="fname"name="Jina" placeholder="Input Your Name"><br>
 
-<h1>Types of Pets</h1>
-<form action=""></form>
+     <label for="Lname">Surname</label><br>
+     <input type="text"id="Lname"name="Surname"><br>
+
+
+     <label for="dage">Donor Age</label><br>
+     <input type="text"id="dage"name="miaka"><br>
+
+     <label for="phone">Phone Number:</label><br>
+     <input type="text"id="phone"name="eeh"><br>
+
+     <label for="email">Email Address</label><br>
+     <input type="text"id="email"name="waraka"><br><br>
+
+
+     <input type="submit" value="Bonyeza Hapa">
+
+ </form>
+
+ <form>
+     <p>Using Radio for Age Group</p>
+     <input type="radio"id="young"name="miaka" value="0-10">
+     <label for="young">0-10</label><br>
+
+     <input type="radio"id="teenage"name="miaka"value="11-20">
+     <label for="teenage">11-20</label><br>
+<!--     <input type="radio"id="teenage"name="miaka"value="11-20">-->
+
+     <input type="radio"id="adult"name="sipangwigwi"value="above 20">
+     <label for="adult">Above 20</label><br>
+
+     <input type="radio"id="ofage"name="mmh"value="Above 60">
+     <label for="ofage">Above 60</label>
+
+
+ </form>
+ <br><br>
+
+
+ <form>
+     <p> Preffered Means of Transport </p>
+
+<!--     <label for="bike">Bicycle</label><br>-->
+<!--     <input type="checkbox"id="bike"name="sulu">-->
+
+<!--     <label for="mat">PSV</label><br>-->
+     <input type="checkbox"id="mat"name="sulu">
+     <label for="mat">PSV</label><br>
+
+<!--     <label for="miguu">Walking</label><br>-->
+     <input type="checkbox"id="miguu"name="sulu">
+     <label for="miguu">Walking</label><br>
+
+<!--     <label for="gari">Private Means</label><br>-->
+     <input type="checkbox"id="gari"name="sulu">
+     <label for="gari">Private Means</label><br>
+
+<!--     <label for="bike">Bicycle</label><br>&ndash;&gt;-->
+     <!--     <input type="checkbox"id="bike"name="sulu">-->
+     <input type="checkbox"id="bike"name="sulu">
+     <label for="bike">Bicycle</label><br>
+
+ </form>
+ <br>
+
+<h2>The Select Element</h2>
+<p>Gives a Dropdown Menu</p>
+ <form action="Grapes.html">
+
+     <label for="blood">Blood Group</label>
+     <select name="blood" id="blood" size="2">
+     <option value="Group A+">A</option>
+<!--     <option value="Group A-"></option>-->
+     <option value="Group B">B</option>
+     <option value="Group AB" selected>AB</option>
+     <option value="Group O">O</option>
+
+     </select>
+
+
+ </form>
+
+
+
 
 </body>
 </html>
