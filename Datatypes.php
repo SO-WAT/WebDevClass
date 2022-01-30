@@ -48,6 +48,7 @@ echo"<br>";
 echo strpos("Today is Monday","is","1");
 echo"<br>";
 
+
 echo"Replace";
 echo"<br>";
 
@@ -58,7 +59,33 @@ echo"<br>";
 echo strrev("What did you expect would happen today??");
 echo"<br>";
 
-echo strpos("Do not be surprised when good things happen to you. You are a graet, amazing person",
+echo strpos("Do not be surprised when good things happen to you. You are a great, amazing person",
     "you","1");
+
+echo"<br>";
+
+ $none=2.5;
+ $now=200;
+ echo $none*$now;
+
+echo"<br>";
+var_dump(is_integer($none));
+
+echo"<br>";
+
+$gender= "67899.78654";
+$int_cast=(int)$gender;
+echo $int_cast;
+echo"<br>";
+echo(round($gender));
+echo"<br>";
+echo (rand(10,100));
+
+echo"<br>";
+//CONSTANTS
+define("complement","Unawakunywa Kuwakunywa leo.wahh!");
+echo complement;
+
+
 
 
