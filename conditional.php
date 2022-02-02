@@ -19,9 +19,9 @@ echo"<br>";
 //if ....else if....
 $marks=87;
 if ($marks<87){
-    echo"Make some improvements";
+    echo"Grade: Below the required marks";
 }else if($marks<87 and $marks<=20){
-    echo"You are a confused fellow";
+    echo"Grade: Get serious!!";
 }else if($marks<=60 && $marks>70){
     echo"Fair enough";
 }else {
