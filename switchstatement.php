@@ -15,6 +15,8 @@ switch ($myfruit){
         case "Mangoes";
         echo"Mangoes are very succulent";
         break;
+    default:
+        echo"No Fruit in the dessert listed above";
 
 
 
