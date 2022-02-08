@@ -66,3 +66,39 @@ $colors=array("red","green","blue","yellow");
 foreach($colors as $value){
     echo "$value <br>";
 }
+$class=array("Ruth","Christine","Collins","Diana","Lesley");
+$arr=array("Emobilis",456,678,67.98,true,false,null);
+var_dump($class);
+echo"<br>";
+var_dump($arr);
+echo"<br>";
+
+echo $class[0];
+$class[3]="Nishy";
+echo"<br>";
+echo $class[3];
+echo"<br>";
+foreach($class as $names){
+    echo"$names<br>";
+}
+
+
+
+
+
+
+
+echo"<br>";
+//        Associative Array
+$age=array("Erick"=>30,"Kelvin"=>21,"Quinter"=>19);
+echo"Erick is".$age['Erick']."Years";
+
+
+
+
+
+
+
+
+
+
