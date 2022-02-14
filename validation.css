@@ -1,0 +1,65 @@
+h2{
+    font-family:"High Tower Text";
+    text-align:center;
+}
+h4 {
+    font-family: Chiller;
+    font-size: xx-large;
+    text-align: center;
+    color: orangered;
+}
+
+.container{
+    background-image: url("sort.jpg");
+    padding: 10px;
+    /*width: 150px;*/
+margin-left: auto;
+    /*display: ;*/
+}
+
+
+
+
+.card {
+    border-style: ridge;
+    border-radius:20px;
+    width: 420px !important;
+    margin: 0 auto
+
+}
+
+
+
+form{
+    text-align: center;
+    background-color: darkgrey;
+    padding:10px;
+    /*display: inline;*/
+    align-content: space-around;
+
+}
+
+*{
+    color: darkmagenta;
+}
+span{
+    color: mediumblue;
+    display: flow-root;
+}
+
+input[type=submit]{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: slateblue;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
